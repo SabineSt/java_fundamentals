@@ -17,6 +17,8 @@ package datatypes_operators.labs;
  *
  *      Notice how each type is converted. In which direction is information lost?
  *
+ *      from double to int, from the bigger one to the smaller, the cases where you have to cast.
+ *
  */
 
 public class Exercise_02 {
@@ -24,6 +26,17 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
+
+        int x = 10;
+        double y;
+        y = x;
+
+        System.out.println(y);
+
+        double d = 10.5;
+        int t = (int) d;
+
+        System.out.println(t);
 
     }
 }
