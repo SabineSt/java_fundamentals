@@ -1,37 +1,64 @@
 Answer the following questions:
 
 1.) Using the command line, how do you:
-    a. change directories?
-    b. list the contents of a folder?
-    c. print the path of the current directory?
-    d. move a file from one location to the another?
-    e. copy a file from one location to another?
-    f. create a file?
-    g. create a folder?
-    h. delete a file?
-    i. delete a folder?
-    j. print the contents of a file?
-    k. edit the contents of a file?
+    a. change directories?  cd ../ for up one; directoryname or path for downwards (also possible for up)
+    b. list the contents of a folder?   ls (-al)(-Al)
+    c. print the path of the current directory?   pwd
+    d. move a file from one location to the another?   mv <file> <directory-name>
+    e. copy a file from one location to another?   cp <file> <directory-name>
+    f. create a file?   touch <name>
+    g. create a folder?  mkdir <name>
+    h. delete a file?   rm <filename>
+    i. delete a folder?  rm -r <foldername>
+    j. print the contents of a file?  cat <name>
+    k. edit the contents of a file?  vim <name>
 
 2.) Why do we use git and Github?
 
+    to have a version control possibility, to be able to better track changes and also share them with others
+
 3.) What is the general flow of git?
+
+    git init add a repository on your local computer
+    create remote repository onling on github.com
+    //use existing repository
+    git commit -m ""
+    git add .
+    git push origin master
 
 4.) What is the purpose of adding a remote to a local git repository?
 
+    to be able to access it from any other computer and therefore being able to share it with others, and work together
+
 5.) How do you print a message to the console?
+
+    ?? i dont understand
 
 6.) Where does a program begin its execution?
 
+    at the main method
+
 7.) What is a code block and how do you create one?
+
+    anything between {}
 
 8.) What is the idea of variable scope?
 
+    that they and there values are only accessible inside their scope, which is the code block they are in, exeption are the instance variables
+    they are also accessible
+
 9.) What are semicolons used for?
+
+    to end a statement
 
 10.) What are lines of code indented? When should a line be indented?
 
-11.) What does a .java file need to be complied to a .class file before running?
+    actually java is a formfree language, but it has developed as a custom or good practice to indente lines of code for better readability
+    its to better recognize the blocks of code and so also better for realization of their associated scopes
+
+11.) What does a .java file need to be compiled to a .class file before running?
+
+    it needs the javac compiler
 
 
 

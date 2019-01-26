@@ -25,5 +25,11 @@ public class Exercise_05 {
 
         // write completed code here
 
+        //convert days to seconds
+        int seconds = days * 86400;
+
+        //output the results
+        System.out.println(days + " days are " + seconds + " seconds to be lived. ;) ");
+
     }
 }

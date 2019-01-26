@@ -19,7 +19,7 @@ Initializing git folder
             iii. Commit file(s)
             iv.  Push file(s) to Github repository
 
-Adding a remote
+Adding a remote!git
     1. Create new personal repository on Github named "online_java-labs".
     2. On local machine, add the new remote address (directions are provided on Github with new repo is created)
     3. Push local git repository to your Github using the new remote.

@@ -22,3 +22,69 @@ Example Output (pwd):
     1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd
        /Users/cadenmackenzie/Documents/CodingNomads
 
+Last login: Thu Jan 24 14:49:54 on ttys001
+sabines-MacBook-Pro:~ Beezzz$ pwd
+/Users/Beezzz
+sabines-MacBook-Pro:~ Beezzz$ clear
+
+
+
+sabines-MacBook-Pro:~ Beezzz$ cd Documents/CODINGNOMADSoffi/
+
+sabines-MacBook-Pro:CODINGNOMADSoffi Beezzz$ mkdir Terminal_testing
+sabines-MacBook-Pro:CODINGNOMADSoffi Beezzz$ cd Terminal_testing/
+sabines-MacBook-Pro:Terminal_testing Beezzz$ vim file1.txt
+sabines-MacBook-Pro:Terminal_testing Beezzz$ vim file2.txt
+sabines-MacBook-Pro:Terminal_testing Beezzz$ vim file3.txt
+sabines-MacBook-Pro:Terminal_testing Beezzz$ pwd
+/Users/Beezzz/Documents/CODINGNOMADSoffi/Terminal_testing
+sabines-MacBook-Pro:Terminal_testing Beezzz$ ls -Al
+total 24
+-rw-r--r--  1 Beezzz  staff  11 Jan 26 12:05 file1.txt
+-rw-r--r--  1 Beezzz  staff  12 Jan 26 12:06 file2.txt
+-rw-r--r--  1 Beezzz  staff  38 Jan 26 12:06 file3.txt
+sabines-MacBook-Pro:Terminal_testing Beezzz$ mkdir newfolder
+sabines-MacBook-Pro:Terminal_testing Beezzz$ cd newfolder/
+sabines-MacBook-Pro:newfolder Beezzz$ cd ../
+sabines-MacBook-Pro:Terminal_testing Beezzz$ cp file1.txt  newfolder
+sabines-MacBook-Pro:Terminal_testing Beezzz$ ls -Al
+total 24
+-rw-r--r--  1 Beezzz  staff  11 Jan 26 12:05 file1.txt
+-rw-r--r--  1 Beezzz  staff  12 Jan 26 12:06 file2.txt
+-rw-r--r--  1 Beezzz  staff  38 Jan 26 12:06 file3.txt
+drwxr-xr-x  3 Beezzz  staff  96 Jan 26 12:08 newfolder
+sabines-MacBook-Pro:Terminal_testing Beezzz$ cd newfolder/
+sabines-MacBook-Pro:newfolder Beezzz$ ls -AL
+file1.txt
+sabines-MacBook-Pro:newfolder Beezzz$ cd ../
+sabines-MacBook-Pro:Terminal_testing Beezzz$ mv file3.txt newfolder/
+sabines-MacBook-Pro:Terminal_testing Beezzz$ cd newfolder/
+sabines-MacBook-Pro:newfolder Beezzz$ ls -Al
+total 16
+-rw-r--r--  1 Beezzz  staff  11 Jan 26 12:08 file1.txt
+-rw-r--r--  1 Beezzz  staff  38 Jan 26 12:06 file3.txt
+sabines-MacBook-Pro:newfolder Beezzz$ rm file1.txt
+sabines-MacBook-Pro:newfolder Beezzz$ ls -al
+total 8
+drwxr-xr-x  3 Beezzz  staff   96 Jan 26 12:13 .
+drwxr-xr-x  5 Beezzz  staff  160 Jan 26 12:09 ..
+-rw-r--r--  1 Beezzz  staff   38 Jan 26 12:06 file3.txt
+sabines-MacBook-Pro:newfolder Beezzz$ cd ../
+sabines-MacBook-Pro:Terminal_testing Beezzz$ rm -r newfolder/
+sabines-MacBook-Pro:Terminal_testing Beezzz$ ls -Al
+total 16
+-rw-r--r--  1 Beezzz  staff  11 Jan 26 12:05 file1.txt
+-rw-r--r--  1 Beezzz  staff  12 Jan 26 12:06 file2.txt
+sabines-MacBook-Pro:Terminal_testing Beezzz$ vim file1.txt
+sabines-MacBook-Pro:Terminal_testing Beezzz$ cat file1.txt
+
+
+hi there!
+
+so add something new here :)
+sabines-MacBook-Pro:Terminal_testing Beezzz$ grep "something" file2.txt
+sabines-MacBook-Pro:Terminal_testing Beezzz$ cat file2.txt
+
+now hello!
+sabines-MacBook-Pro:Terminal_testing Beezzz$ grep "now" file2.txt
+now hello!
