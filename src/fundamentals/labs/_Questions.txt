@@ -32,7 +32,7 @@ Answer the following questions:
 
 5.) How do you print a message to the console?
 
-    ?? i dont understand
+    echo
 
 6.) Where does a program begin its execution?
 
