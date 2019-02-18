@@ -18,3 +18,5 @@ class Break5 {
         System.out.println("After i loop");
     }
 }
+
+//todo look again or ask roi; why 5 is printed, other ex not, f.e.:31 u 30

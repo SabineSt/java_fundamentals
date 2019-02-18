@@ -33,3 +33,5 @@ class LogicalOpTable {
         System.out.println((p^q) + "\t" + (!p));
     }
 }
+
+//AND : false stärker ; OR : true stärker ; yor verteh ich überhaupt nicht

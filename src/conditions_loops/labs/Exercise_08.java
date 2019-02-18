@@ -7,5 +7,20 @@ package conditions_loops.labs;
  *
  */
 
-public class Exercise_08 {
+ public class Exercise_08 {
+   public static void main(String[] args) {
+        int x = 1000;
+        do{
+            System.out.println(x);
+            x = x -3;
+        } while(x > 0);
+
+    }
 }
+
+
+
+
+
+// mit array auch? einfügen und dann stelle minus 3 ausprinten?
+// mit label breaks

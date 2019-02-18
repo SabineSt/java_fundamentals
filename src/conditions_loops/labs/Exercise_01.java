@@ -18,12 +18,26 @@ public class Exercise_01 {
 
         // create scanner
         Scanner scanner = new Scanner(System.in);
+
         // prompt user
-        System.out.print("Enter a number between 1 and 1,000,000,000 to determine whether it is odd or even: ");
+
+        for (; ; ) {
+            System.out.print("Enter a number between 1 and 1,000,000,000 to determine whether it is odd or even: ");
+
         // assign input to variable as int
-        int number = scanner.nextInt();
+            int number = scanner.nextInt();
 
-        // write completed code here
+            // write completed code here
 
+            if (number % 2 == 0) {
+                System.out.println("Your chosen number is even");
+            } else {
+                System.out.println("Your chosen number must be odd");
+
+        }
+
+        }
     }
 }
+
+

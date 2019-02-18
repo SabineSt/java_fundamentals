@@ -14,6 +14,8 @@ class Guess4 {
             // read a character
             ch = (char) System.in.read();
 
+            //todo clearifying could you not do this with an if?
+
             // discard any other characters in the input buffer
             do {
                 ignore = (char) System.in.read();

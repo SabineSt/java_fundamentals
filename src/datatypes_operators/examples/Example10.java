@@ -27,3 +27,4 @@ class NestVar {
         }
     }
 }
+//todo: wieso "This is count: 3" und nicht 1 -> 0 + 1

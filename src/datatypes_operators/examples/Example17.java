@@ -22,6 +22,8 @@ class CastDemo {
         b = (byte) i;
         System.out.println("Value of b: " + b);
 
+        //todo:  byte dings versteh ich nicht: erstes: 100 : zweites: 1?? weil byte nur bis ..? zahlenmässig keine ahnung 8 bits
+
         b = 88; // ASCII code for X
         ch = (char) b;
         System.out.println("ch: " + ch);

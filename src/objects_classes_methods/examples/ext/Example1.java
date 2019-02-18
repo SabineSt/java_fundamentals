@@ -14,6 +14,7 @@ class MyClass {
     public void setAlpha(int alpha){
         alpha--;
         this.alpha = alpha;
+       // System.out.println(alpha);
     }
 }
 
@@ -24,5 +25,8 @@ class AccessDemo {
         int xyz = 10;
         ob.setAlpha(xyz);
         //xyz still 10
+
     }
 }
+
+// todo : question : why not - => 9

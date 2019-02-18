@@ -22,9 +22,12 @@ class Help2 {
 
             choice = (char) System.in.read();
 
+            //todo clearifying
             do {
                 ignore = (char) System.in.read();
             } while(ignore != '\n');
+
+            //is das das ENTER? also damits nicht zuviele werden od wie? wegen dieser anspeicherung od so
         } while( choice < '1' | choice > '5');
 
         System.out.println("\n");

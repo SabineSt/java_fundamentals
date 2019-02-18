@@ -18,3 +18,5 @@ class Inches {
 
     }
 }
+
+//todo 2: versteh das mathematische nicht

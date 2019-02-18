@@ -2,15 +2,32 @@ Answer the following questions:
 
 1.) What is an interface?
 
+its a pre-written shortversion of the wished class and method structure
+
 2.) Why are interfaces implemented?
+
+in order to make sure, all needed elements will be worked on
 
 3.) What is the implement keyword used for?
 
-4.) How many interfaces can class implement?
+to implement an interface, it will cause problems, if not all abstract methods and so on are really used f.e.
+
+
+4.) How many interfaces can a class implement?
+
+as many as one wants
 
 5.) Write a simple interface with one method.
 
+public interface Register{
+    String nameIntake(){
+    }
+    }
+
 6.) Think of a real world application where interfaces are used. Describe it's purpose.
+
+when someone builds an app and wants to make sure, that all the needed methods and classes will be used
+so the structure will be build first, from someone, who has the overview of the whole application
 
 7.) What is wrong with the following interface?
 
@@ -19,3 +36,6 @@ Answer the following questions:
             return x + y;
         }
     }
+
+    interfaces contain only abstract methods , empty ones
+    the body is done after implmentation of them

@@ -3,43 +3,115 @@ Answer the following questions:
 
 1.) What is an instance variable?
 
+    its the variable belonging to the class, outside of any methodscope f.e.,
+    and in order accesible to all part of the code inside the class
+
 2.) How do you create an object of a class Vehicle?
+
+        Vehicle car = new Vehicle();
 
 3.) What is a reference variable? How is it different from a primitive type?
 
+objects are reference variables, they are passed on as a reference to their space in memory
+so its not really actually them, but like a copy of their informations
+
 4.) What does it mean to pass by reference?
+
+(?)
 
 5.) What makes up a method signature?
 
+    the access keyword, modifier (?) (static), datatype, method-name , parenthesis for parameter-intake, body of method, semicolon to finish
+
 6.) Write a method signature for a method divide() that takes two ints as parameters and returns a double.
+
+    public double (?) divide(int a, int b){
+
+             double sum = a/b
+             return sum;
+         }
 
 7.) When does a method stop executing? How can you make it terminate?
 
+when it reached the end of its block of code
+with break keyword
+
 8.) How do you return a String from a method?
+
+    public String methodname(String a){}
 
 9.) What is the return type of a method that does not returns any value?
 
+void
+
 10.) When should a method be static?
+
+if you want it to be the same for all connected subclasses and if a change is done in one the effect will be in all of them
 
 11.) What is an example of a time you would make an instance variable static? final?
 
+static when f.e. i want it to be the same for all subclasses f.e. if I want to count how many objects have been created,
+the counting variable I would set to static, it will change in all of the connected classes
+
+final: something that is not supposed to change, something that stays the same for sure, like the weight of Saturn
+in order to prevent possible influences
+
+
 12.) When a method returns a value, what needs to be done with that value?
 
+stored in a variable, so it can be worked with
+
 13.) What is method overloading?
+
+(?) difference to constructor only the uppercase?
 
 14.) Demonstrate method overloading by writing the method signature of two overloaded methods.
 
 14.) What are constructors used for?
 
+(?)
+
 15.) If a class does not have a constructor, how does Java handle the creation of an object
+
+it has a default constructor
 
 16.) What does a constructor that takes in two variable, make and model, for a class Vehicle look like?
 
+public void Vehicle(String make, String model){
+this.make = make;
+this.model = model;
+
+}
+
 17.) What is the "this" keyword used for?
+
+to indicate that it is the instance variable, referring to this object
 
 18.) What are the keywords public, private, protected used for in a class declaration? A method declaration? Variable declaration?
 
+ (?)
+
 19.) What is constructor overloading?
 
+creating different constructors, with f.e. different amount or kind of parameters to be taken in; then automatically the right one will be used, when the arguments are passed
+
 20.) Demonstrate constructor overloading with three overloaded constructors.
+
+class Overloading{
+
+            int sum = 0;
+
+    public Overloading(int a, int b){
+
+            sum = a * b;
+    }
+    public Overloading(int a, int b, int c){
+
+                sum = a * b * c;
+        }
+    public Overloading(int a, int b, double d){
+
+                sum = a * b * d;
+            }
+}
 

@@ -3,43 +3,123 @@ Answer the following questions:
 
 1.) What are the names and uses of Java's eight primitive types?
 
+    byte  the size of 8 bit
+    short
+    integer whole numbers  max size 32 bits
+    long  whole numbers  max size 64 bits
+    float floating point number  max size 32 bits; (can have 6 digits after the point, needs f at end to be recognized because automatically f. no. are recognized as doubles from system...)
+    double floating point number  max size 64 bits (can have like 15 digits after the point)
+    char  character
+    boolean  holds two possible values: true or false
+
 2.) How do you declare and initialize an int variable called "x" with the value 42.
 
-3.) What happens if you initialize a double variable with the value of a int?
+    int x = 42;
+
+3.) What happens if you initialize a double variable with the value of an int?
+
+    a .0 is going to be written to the whole number at the output, size is widened
 
 4.) How do you set an int variable to the value of a double?
 
+    int x;
+    double y = x;
+
 5.) What are the 5 arithmetic operators?
+
+    +
+    -
+    *
+    /
+    %
 
 6.) What are Relational operators used for? What is the result of using a relational operator?
 
+    the result is a boolean.
+    until now we have used them as conditions in loops or conditional statements, 'ifs'.
+
 7.) Demonstrate the use of a Relational operator.
+
+    if(x > 5) System.out.println("x is higher than 5");
 
 8.) What logical operators used for? What is the result of using a logical operator?
 
+    to broaden the possibility or range of conditions
+
 9.) Demonstrate the use of a logical operator.
+
+    if(x < 5 && x > 0) System.out.println("Print this.");
 
 10.) How can you use the shorthand addition operator to add 10 to a variable "x"?
 
+    x += 10;
+
 11.) What data type is a String?
+
+    its an object type
 
 12.) Are string mutable?
 
+    once published (?) they are not (does published mean, given a value, initialized?)
+
 13.) How do you concatenate Strings?
 
-14.) Can you cast and int to a String or a String to an int? Why or why not?
+    +
+    String x = "Hello";
+    String y = "World";
+    (x + " " + y)
+
+
+14.) Can you cast an int to a String or a String to an int? Why or why not?
+
+    i dont think so, because the casting is used for primitive types and String is an object type
+    but chars can be casted to int and vicavers
 
 15.) What is an array?
 
+    a collection of data, one form of collection
+
 16.) What is the first index of an array?
+
+    0
 
 17.) Can you change the size of an array once it has been declared and initialized?
 
+    no
+
 18.) How do you print the 5th element in an array "exampleArray"?
+
+     System.out.println(exampleArray[4]);
 
 19.) What are the two ways you can declare and initialize an array? Demonstrate both.
 
+    int[] myArray = new int[8];
+
+   1. int[] myArray = {1, 2, 3, 4, 5, 6, 7, 8};
+
+   2. for(int i = 0; i < myArray.length; i++){
+        myArray[i] = i;
+    }
+
 20.) How do you iterate through a multidimensional array?
 
+
+    int[][] multiArray = {{3,4},{5,6}};
+
+    for(int i = 0; i < 2; i++){
+        for(int t = 0; t < 2; t++){
+
+        System.out.println(multiArray[i][t]);
+
+        }
+        }
+
+
 21.) What is the for-each loop used for?
+
+    to print out every single value of an array
+
+    for(int i : arrayname){
+    System.out.println(i);
+    }
 

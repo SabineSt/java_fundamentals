@@ -1,5 +1,7 @@
 package conditions_loops.labs;
 
+import java.util.Scanner;
+
 /**
  * Conditions and Loops Exercise 5: Calculator
  *
@@ -16,4 +18,32 @@ package conditions_loops.labs;
  */
 
 public class Exercise_05 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Please choose 2 numbers: ");
+        System.out.println();
+        System.out.println("We will tell you the sum fromm the numbers in between and also tell you the average of them.");
+
+        int lowerBound = scanner.nextInt();
+        int upperBound = scanner.nextInt();
+        int sum = 0;
+
+        if(lowerBound < upperBound) {
+            for (int count = lowerBound; count <= upperBound; count++) {
+
+                sum += count;
+
+            }
+            int av = sum / upperBound - lowerBound + 1;
+            System.out.println("This is the sum of your numbers: " + sum);
+            System.out.println("This is the average of your numbers: " + av);
+        }
+    }
 }
+
+//todo: kommt 50 raus, nicht 50.5 bei average
+
+// könnt gleich lowerBound verwenden glaub ich

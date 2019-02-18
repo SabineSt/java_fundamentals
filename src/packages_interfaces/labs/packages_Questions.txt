@@ -2,13 +2,26 @@ Answer the following questions:
 
 1.) What is a package?
 
+its an organising structure
+
 2.) How to you import a package?
+
+by writing 'package' followed by its name and semicolon at the very beginning
 
 3.) What structure do packages mimic?
 
 4.) How do do you compile a .java file in a package "solo_package" from the command line?
 
+javac file_name.class     you compile by using the class  (?)
+
+java file_name  to run it
+
 5.) What if the above package is in a package "parent_package". Where do you need to be to
     compile a .java file in "solo_package" from the command line?
 
+(?)
+
 6.) What extra layer do packages add to access control?
+
+if protected is used, these methods or variables can only be used inside the same package, so even its a subclass,
+but belonging to another package, there is no access given   (?)

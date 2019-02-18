@@ -8,4 +8,15 @@ package conditions_loops.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args) {
+
+        for (int x = 2; x < 101; x++) {
+            if (x % 2 == 0) {
+                System.out.println(x);
+            }
+        }
+
+    }
 }
+
+

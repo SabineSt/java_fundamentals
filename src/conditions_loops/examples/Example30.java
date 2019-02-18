@@ -26,3 +26,5 @@ class Break6 {
 
     }
 }
+//todo look again; ich dacht irgendwie das for und die klammer bilden eins, nicht wenn
+//man ans ende der klammer geht dass dann das for tortzdem wieder durchgespielt wird

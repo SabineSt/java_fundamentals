@@ -8,4 +8,12 @@ package conditions_loops.labs;
  */
 
 public class Exercise_09 {
+    public static void main(String[] args) {
+        for(int z = 3456; z >= 999; z--){
+            System.out.println(z);
+
+            if(z == 3000)break;
+        }
+
+    }
 }

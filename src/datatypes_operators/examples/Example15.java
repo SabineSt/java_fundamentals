@@ -13,3 +13,6 @@ class LtoD {
 
     }
 }
+
+//todo: versteh ich nicht : warum nach ersten Zahl das Komma was is eine long zahl überhaupt? wie float f l hinten
+// und warum hinten noch : E8

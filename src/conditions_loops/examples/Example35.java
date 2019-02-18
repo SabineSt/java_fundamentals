@@ -15,3 +15,5 @@ class FindFac {
         }
     }
 }
+
+//todo look again : what the first loop for, why necessary?
